@@ -1,0 +1,20 @@
+@use '../variables';
+
+.hero{
+
+    &--gradient-section {
+        background-image: linear-gradient(variables.$blue3, variables.$blue2, variables.$blue1);
+    }
+}
+
+.announcement {
+    &--gradient-section {
+        background-image: linear-gradient(variables.$green2, variables.$green, variables.$yellow2);
+    }
+}
+
+.description {
+    &--gradient-section {
+        background-image: linear-gradient(variables.$yellow variables.$pink2, variables.$pink1);
+    }
+}

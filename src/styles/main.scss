@@ -1,0 +1,16 @@
+@use 'hero';
+@use 'announcement';
+@use 'variables';
+@use './components/background-image';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+font-family: 'Moon Dance', cursive;
+font-family: 'Rubik', sans-serif;
+*/
