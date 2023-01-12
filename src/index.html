@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birthday</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Rubik:ital,wght@1,500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
 </head>
+
 <body>
-    <header class="hero hero--gradient-section">
+    <header class="bigparty">
+        <div class="bigparty__image">
+        </div>
+        <div class="bigparty__title">
+            <h1>
+                A maior festa de aniversário de todas começa em: 260 Dias, 23 horas, 42 Min, 30s.
+            </h1>
+            <div class="bigparty__button">
+                <a href="#intro">Saiba mais!</a>
+            </div>
+        </div>
+    </header>
+    <section id="intro" class="hero hero--gradient-section-blue-purple">
         <div class="hero__content">
             <div class="container">
                 <video class="hero__content__video" src="./media/video/pexels-ivan-samkov-6225066.mp4"></video>
@@ -18,14 +34,60 @@
                 <video class="hero__content__video" src="./media/video/video.mp4"></video>
             </div>
         </div>
-    </header>
-    <section class="description">
+    </section>
+    <section class="announcement announcement--gradient-section-purple-yellow">
         <div class="container">
-            <h1 class="description__title">
-                A maior festa de aniversário de todas começa em: 260 Dias, 23 horas, 42 Min, 30s.
-            </h1>
+        </div>
+    </section>
+    <section class="description description--gradient-section-yellow-pink">
+        <div class="container">
+            <div class="description__image">
+                <img class="image" src="/src/media/images/dois_doguinhos.jpg" alt="dois_doguinhos">
+            </div>
+            <div class="description__text description__text--text-normal">
+                <h2>
+                    Venham comemorar meu aniversário!
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="description description--gradient-section-pink-green">
+        <div class="container container-reverse">
+            <div class="description__image">
+                <img class="image" src="/src/media/images/neon_party.jpg" alt="dois_doguinhos">
+            </div>
+            <div class="description__text">
+                <h2>
+                    A festa é grande e você não pode ficar de fora!
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="description description--gradient-section-green-blue">
+        <div class="container">
+            <div class="description__image">
+                <img class="image" src="/src/media/images/neon_car.jpg" alt="dois_doguinhos">
+            </div>
+            <div class="description__text description__text--text-normal">
+                <h2>
+                    Diversão a perder de vista...
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="description description--gradient-section-blue-pink">
+        <div class="container container-reverse">
+            <div class="description__image">
+                <img class="image" src="/src/media/images/tres_velas.jpg" alt="dois_doguinhos">
+            </div>
+            <div class="description__text">
+                <h2>
+                    E esta data especial conta com sua presença!
+                </h2>
+            </div>
         </div>
     </section>
 </body>
 <script src="./scripts/main.js"></script>
+
 </html>

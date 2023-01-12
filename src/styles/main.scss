@@ -1,13 +1,17 @@
+@use 'bigparty';
 @use 'hero';
 @use 'announcement';
 @use 'variables';
 @use './components/background-image';
+@use 'description';
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: variables.$textColor;
 }
 
 /* 

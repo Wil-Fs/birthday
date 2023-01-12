@@ -1,0 +1,36 @@
+@use 'variables';
+
+.description {
+    width: 100%;
+
+    .container {
+        max-width: 80%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 60px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-reverse {
+        flex-direction: row-reverse;
+    }
+
+    &__image {
+        .image {
+            height: 500px;
+        }        
+    }
+
+    &__text {
+        display: flex;
+        align-items: center;
+        &--text-normal {
+            flex-direction: row-reverse;
+        }
+        .text {
+            width: 70%;
+            font-size: 20px;
+        }
+    }
+}

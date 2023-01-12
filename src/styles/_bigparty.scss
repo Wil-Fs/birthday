@@ -1,0 +1,46 @@
+@use 'variables';
+
+.bigparty {
+    background-image: url(../media/images/big_party.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 140vh;
+    background-color: variables.$blue3;
+    
+    
+    &__title {
+        padding: 5% 4%;
+        background-color: rgb(0, 0, 0, 0.6);
+        max-width: 640px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+        h1 {
+            margin: 30vh 0;
+            color: #fff;
+        }
+
+    }
+
+
+    &__button {
+        max-width: 30%;
+        padding: 20px;
+        background-color: rgb(0, 0, 0, 0.0);
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s;
+
+        a {
+            text-decoration: none;
+        }
+
+        &:hover {
+            padding: 20px;
+            opacity: 100%;
+            transition: 0.5s;
+            background-color: #000;
+        }
+    }
+}
