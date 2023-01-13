@@ -33,4 +33,35 @@
             font-size: 20px;
         }
     }
+
+    @media (max-width: 1024px) {
+        .container {
+            gap: 45px;
+        }
+        
+        &__text {
+            width: 30%;
+            h2 {
+                width: 100%;
+                font-size: 24px;
+            }
+        }
+    }
+
+    @media (max-width: 660px) {
+        &__image {
+            .image {
+                height: 200px;
+            }        
+        }
+    
+        &__text {
+            h2 {
+                width: 100%;
+                font-size: 18px;
+            }
+        }
+    
+    }
+
 }

@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Rubik:ital,wght@1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         </div>
         <div class="bigparty__title">
             <h1>
-                A maior festa de aniversário de todas começa em: 260 Dias, 23 horas, 42 Min, 30s.
+                A maior festa de aniversário de todas começa em: <span id="time"></span>
             </h1>
             <div class="bigparty__button">
                 <a href="#intro">Saiba mais!</a>
@@ -27,7 +28,7 @@
         </div>
     </header>
     <section id="intro" class="hero hero--gradient-section-blue-purple">
-        <div class="hero__content">
+        <div class="hero__content" data-aos="fade-up">
             <div class="container">
                 <video class="hero__content__video" src="./media/video/pexels-ivan-samkov-6225066.mp4"></video>
                 <img class="hero__content__image" src="./media/images/um_doguinho.jpg" alt="">
@@ -40,7 +41,7 @@
         </div>
     </section>
     <section class="description description--gradient-section-yellow-pink">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
             <div class="description__image">
                 <img class="image" src="/src/media/images/dois_doguinhos.jpg" alt="dois_doguinhos">
             </div>
@@ -52,7 +53,7 @@
         </div>
     </section>
     <section class="description description--gradient-section-pink-green">
-        <div class="container container-reverse">
+        <div class="container container-reverse" data-aos="fade-left">
             <div class="description__image">
                 <img class="image" src="/src/media/images/neon_party.jpg" alt="dois_doguinhos">
             </div>
@@ -64,7 +65,7 @@
         </div>
     </section>
     <section class="description description--gradient-section-green-blue">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
             <div class="description__image">
                 <img class="image" src="/src/media/images/neon_car.jpg" alt="dois_doguinhos">
             </div>
@@ -76,7 +77,7 @@
         </div>
     </section>
     <section class="description description--gradient-section-blue-pink">
-        <div class="container container-reverse">
+        <div class="container container-reverse"  data-aos="fade-left">
             <div class="description__image">
                 <img class="image" src="/src/media/images/tres_velas.jpg" alt="dois_doguinhos">
             </div>
@@ -88,6 +89,7 @@
         </div>
     </section>
 </body>
-<script src="./scripts/main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="scripts/main.js"></script>
 
 </html>
